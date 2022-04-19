@@ -28,7 +28,7 @@ const IconButton = ({ imgSrc, text }: IconbuttonProps) => {
   return (
     <StyledButton>
       <StyledButtonContent style={{ display: "flex" }}>
-        <img src={imgSrc} />
+        <img src={imgSrc} alt={'button-icon'}/>
         <StyledButtonText>{text}</StyledButtonText>
       </StyledButtonContent>
     </StyledButton>
