@@ -23,7 +23,7 @@ type BookHeaderProps = {
 const BookHeader = ({ className }: BookHeaderProps) => {
   return (
     <StyledContainer className={className}>
-      <img src={bookCover} />
+      <img src={bookCover} alt={'book-cover'} />
       <TitleContainer>
         <StyledHeaderText>
           Astrophysics for People in a Hurry’s Summary
