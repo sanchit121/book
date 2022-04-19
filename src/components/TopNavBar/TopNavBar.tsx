@@ -25,7 +25,7 @@ const TopNavBar = ({ menus }: TopNavBarProps) => {
     <BrowserRouter>
       <StyledContainer>
         <StyledLogoContainer>
-          <img src={logo} />
+          <img src={logo} alt={'logo'} />
           <StyledLogoText>Instaread</StyledLogoText>
         </StyledLogoContainer>
         <StyledLinkContainer>
